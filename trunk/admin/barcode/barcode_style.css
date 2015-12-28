@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+kbd
+{
+ font-family: "Courier New", monospace;
+ font-weight: bold;
+}
+
+.barcode
+{
+ color: black;
+ background-color: white;
+ position: relative;
+ left: 0;
+ top: 1em;
+ height: 7em; /* controls height of bars */
+ float: left;
+ clear: left;
+ font-size: 7pt; /* font on the top and bottom of barcode */
+ margin-right: 0em; /* doesn't do anything... */
+ margin-left:0px; /* added to move the barcode a bit to the left so that it is centered */
+}
+
+.quietZone
+{
+ float: left;
+ height: 92%;
+}
+
+.leader
+{
+ float: left;
+ height: 92%;
+}
+
+.separator
+{
+ float: left;
+ height: 92%;
+}
+
+.trailer
+{
+ float: left;
+ height: 92%;
+}
+
+.digit
+{
+ float: left;
+ height: 80%;
+}
+
+.bitOn
+{
+ float: left;
+ height: 92%;
+ width: 0;
+ border-left: .16em solid black; /* changes width of bars originally .15em */
+ background-color: #000000;
+}
+
+.bitOff
+{
+ float: left;
+ height: 92%;
+ width: .16em; /* changes width of bars originally .15em */
+ background-color: #FFFFFF;
+}
+
+.codeDisplay
+{
+ font-family: "Courier New", monospace;
+ font-size: 1.3em;
+ position: absolute;
+ color: black;
+ background-color: white;
+ top: 85%;
+ margin: 0;
+ padding: 0;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ /*display:none; /* REMOVES THE ACTUAL BARCODE NUMBER FROM THE BOTTOM */
+}
+
+#EAN-13_countryCode
+{
+ left: 1%;
+}
+
+#EAN-13_group1
+{
+ left: 16%;
+}
+
+#EAN-13_group2
+{
+ left: 56%;
+}
+
+.barcodeContainer
+{
+ background-color: white;
+}
+
+.upcDesc
+{
+}
+
+.descDisplay
+{
+ text-align:center;
+}
+
+.tocentries
+{
+white-space: normal;
+overflow:visible;
+}
+
+tocentries.a
+{
+display: block;
+white-space: normal;
+}
+
+#sidebar
+{
+display: block;
+white-space: normal;
+overflow: visiblel
+}
